@@ -8,7 +8,6 @@ import datetime
 from models.user import User
 from models.base_model import BaseModel
 
-
 class TestUser(unittest.TestCase):
     """Test User class implementation"""
     def test_doc_module(self):
