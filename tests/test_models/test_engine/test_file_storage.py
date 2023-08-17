@@ -17,7 +17,6 @@ from models.review import Review
 from models.state import State
 from models.user import User
 
-
 class TestFileStorage(unittest.TestCase):
     """Test FileStorage"""
 
@@ -111,7 +110,6 @@ class TestFileStorage(unittest.TestCase):
         self.assertTrue(hasattr(FileStorage, 'save'))
         self.assertTrue(FileStorage.reload.__doc__)
         self.assertTrue(hasattr(FileStorage, 'reload'))
-
 
 if __name__ == '__main__':
     unittest.main()
