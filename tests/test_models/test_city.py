@@ -8,7 +8,6 @@ import datetime
 from models.city import City
 from models.base_model import BaseModel
 
-
 class TestCity(unittest.TestCase):
     """Test City class implementation"""
     def test_doc_module(self):
