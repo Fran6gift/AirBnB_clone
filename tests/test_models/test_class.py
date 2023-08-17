@@ -3,10 +3,8 @@
 import inspect
 import pep8
 
-
 class TestClassDocumentation():
     """Class that allow us to test multiples classes"""
-
     def __init__(self, tests, _class):
         """Constructor"""
         self.tests = tests
