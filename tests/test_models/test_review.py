@@ -8,7 +8,6 @@ import datetime
 from models.review import Review
 from models.base_model import BaseModel
 
-
 class TestReview(unittest.TestCase):
     """Test Review class implementation"""
     def test_doc_module(self):
