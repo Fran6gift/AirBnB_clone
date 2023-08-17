@@ -8,7 +8,6 @@ import datetime
 from models.state import State
 from models.base_model import BaseModel
 
-
 class TestState(unittest.TestCase):
     """Test State class implementation"""
     def test_doc_module(self):
