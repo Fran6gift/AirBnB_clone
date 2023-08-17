@@ -8,7 +8,6 @@ import datetime
 from models.place import Place
 from models.base_model import BaseModel
 
-
 class TestPlace(unittest.TestCase):
     """Test State class implementation"""
     def test_doc_module(self):
