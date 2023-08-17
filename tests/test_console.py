@@ -1,10 +1,8 @@
 #!/usr/bin/python3
 """Test for the console"""
-
 import unittest
 import console
 from console import HBNBCommand
-
 
 class test_console(unittest.TestCase):
     """class test console"""
