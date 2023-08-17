@@ -8,7 +8,6 @@ import datetime
 from models.amenity import Amenity
 from models.base_model import BaseModel
 
-
 class TestAmenity(unittest.TestCase):
     """Test State class implementation"""
     def test_doc_module(self):
